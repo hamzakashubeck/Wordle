@@ -137,9 +137,7 @@ public class WordleGame {
         } catch (IOException e) {
             System.err.println("Error closing input file");
         }
-
-        System.out.println(word);
-
+        
         return word;
     }
 
