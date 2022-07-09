@@ -70,7 +70,7 @@ public class WordleGame {
         this.gui.refreshDisplay();
 
         button.addActionListener(new ActionListener() {
-            private int guesses = 5;
+            private int guesses = 6;
 
             @Override
             public void actionPerformed(ActionEvent e) {
